@@ -28,7 +28,8 @@ def remove(package):
 		print("Error: Unknown konekt")
 #Установка бинарного пакета
 def wbstall(package):
-	if package=="xpomocomcalc":
+	if package=="xpomocomcalc:
+		print("License = Bsd 2 clause")
 		print("Getting xpomocomcalc...")
 		os.system("git clone -v https://github.com/justcoding13/calc_hromosom.git /etc/diakonekt/temp")
 		print("Installing xpomocomcalc...")
